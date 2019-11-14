@@ -17,97 +17,98 @@
 <!DOCTYPE html>
 <html lang="ja">
 
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/style.css">
-        <title>CREATE</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>CREATE</title>
+</head>
 
-    <body>
-        <!-- ヘッダー -->
-        <header class="header">
-            <div class="header__title">CREATE</div>
-            <ul class="header__nav">
-                <li class="header__nav-item">特徴</li>
-                <li class="header__nav-item">学習ルート</li>
-                <li class="header__nav-item">応募ページ</li>
-            </ul>
-        </header>
-        <!-- ヘッダー終わり -->
+<body>
+    <!-- ヘッダー -->
+    <header class="header">
+        <div class="header-title">CREATE</div>
+        <ul class="header-nav">
+            <li class="header-nav-item">特徴</li>
+            <li class="header-nav-item">学習ルート</li>
+            <li class="header-nav-item">応募ページ</li>
+        </ul>
+    </header>
+    <!-- ヘッダー終わり -->
 
-        <!-- メイン -->
-        <main>
-            <!-- トップ -->
-            <div class="top">
-                <div class="top__wrapper">
-                    <h1 class="top__title">CREATE</h1>
-                    <p class="top__text">根本的なプログラミング力を鍛える</p>
-                </div>
+    <!-- メイン -->
+    <main>
+        <!-- トップ -->
+        <div class="top">
+            <h1 class="top-title">CREATE</h1>
+            <p class="top-text">根本的なプログラミング力を鍛える</p>
+        </div>
+        <!-- トップ終わり -->
+
+        <!-- コンテンツ全体 -->
+        <div class="contents">
+
+            <h2 class="contents-title">学べるコンテンツ</h2>
+
+            <!-- 個別コンテンツ -->
+            <div class="contents-item">
+                <i class="contents-item-icon icon-html fab fa-html5"></i> <!-- (参考サイトの"FontAwesomeの使い方"参照) -->
+                <h2>HTML5</h2>
+                <p class="contents-item-text">HTML5が学べます。</p>
             </div>
-            <!-- トップ終わり -->
+            <!-- 個別コンテンツ終わり -->
 
-            <!-- コンテンツ全体 -->
-            <div class="contents">
-
-                <h2 class="contents-title">学べるコンテンツ</h2>
-
-                <!-- 個別コンテンツ -->
-                <div class="contents-item">
-                    <div class="contents-item__circle">
-                        <i class="contents-item__icon fab fa-html5"></i> <!-- (参考サイトの"FontAwesomeの使い方"参照) -->
-                    </div>
-                    <h2>HTML5</h2>
-                    <p class="contents-item__text">HTML5が学べます。</p>
-                </div>
-                <!-- 個別コンテンツ終わり -->
-
-                <!-- 個別コンテンツ -->
-                <div class="contents-item">
-                    <div class="contents-item__circle">
-                        <i class="contents-item__icon fab fa-css3-alt"></i>
-                    </div>
-                    <h2>CSS3</h2>
-                    <p class="contents-item__text">CSS3が学べます</p>
-                </div>
-                <!-- 個別コンテンツ終わり -->
-
-                <!-- 個別コンテンツ -->
-                <div class="contents-item">
-                    <div class="contents-item__circle">
-                        <i class="contents-item__icon fab fa-js-square"></i>
-                    </div>
-                    <h2>JavaScript</h2>
-                    <p class="contents-item__text">JavaScriptが学べます</p>
-                </div>
-                <!-- 個別コンテンツ終わり -->
-
+            <!-- 個別コンテンツ -->
+            <div class="contents-item">
+                <i class="contents-item-icon icon-css fab fa-css3-alt"></i>
+                <h2>CSS3</h2>
+                <p class="contents-item-text">CSS3が学べます</p>
             </div>
-            <!-- コンテンツ全体終わり -->
-        </main>
-        <!-- メイン終わり -->
+            <!-- 個別コンテンツ終わり -->
 
-        <!-- フッター -->
-        <footer class="footer">
-            <h2 class="footer-title">お問い合わせ</h2>
+            <!-- 個別コンテンツ -->
+            <div class="contents-item">
+                <i class="contents-item-icon icon-js fab fa-js-square"></i>
+                <h2>JavaScript</h2>
+                <p class="contents-item-text">JavaScriptが学べます</p>
+            </div>
+            <!-- 個別コンテンツ終わり -->
+        </div>
+        <!-- コンテンツ全体終わり -->
 
-            <!-- 問い合わせフォーム -->
+        <!-- お問い合わせ -->
+        <div class="contact">
+            <h2 class="contact-title">お問い合わせ</h2>
+
+            <!-- 入力フォーム -->
             <form class="contact-form">
-                <label class="contact-form__label">お名前</label>
-                <input class="contact-form__item contact-form__item--input" placeholder="必須入力項目です">
+                <label class="contact-form-label">お名前</label>
+                <input class="contact-form-item contact-form-item--input" placeholder="必須入力項目です">
 
-                <label class="contact-form__label">メールアドレス</label>
-                <input class="contact-form__item contact-form__item--input" placeholder="必須入力項目です">
+                <label class="contact-form-label">メールアドレス</label>
+                <input class="contact-form-item contact-form-item--input" placeholder="必須入力項目です">
 
-                <label class="contact-form__label">お問い合わせ内容</label>
-                <textarea class="contact-form__item contact-form__item--textarea" placeholder="必須入力項目です"></textarea>
+                <label class="contact-form-label">興味のある言語</label>
 
-                <input class="contact-form__item contact-form__item--submit" type="submit" value="送信">
+                <select class="contact-form-item">
+                    <option value="">HTML</option>
+                    <option value="">CSS</option>
+                    <option value="">JavaScript</option>
+                </select>
+
+                <label class="contact-form-label">お問い合わせ内容</label>
+                <textarea class="contact-form-item contact-form-item--textarea" placeholder="必須入力項目です"></textarea>
+
+                <input class="contact-form-item contact-form-item--submit" type="submit" value="送信">
             </form>
-            <!-- 問い合わせフォーム終わり -->
+            <!-- 入力フォーム終わり -->
 
-        </footer>
-        <!-- フッター終わり -->
-    </body>
+        </div>
+        <!-- お問い合わせ終わり -->
+
+    </main>
+    <!-- メイン終わり -->
+</body>
 
 </html>
