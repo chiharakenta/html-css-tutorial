@@ -4,17 +4,15 @@ body{
     margin: 0;
 }
 
-
 /* ヘッダー */
 .header{
     background-color: #323232; /* 背景色 */
     color: #FAFAFA; /* 文字色 */
-    width: 100%;
     overflow: hidden; /* floatによるレイアウト崩れを防ぐ */
 }
 
 .header-title{
-    margin: 11px 0 11px 20px; /* 余白 上:11 右:0 下:11 左:20 */
+    margin: 20px 0 20px 20px; /* 余白 上:11 右:0 下:11 左:20 */
     float: left; /* 左寄せ */
     font-size: 32px;
     font-weight: bold;
@@ -35,7 +33,7 @@ body{
 /* トップ */
 .top{
     text-align: center; /* 文字の中央揃え */
-    background-image: url(../img/hero-image.jpg); /* 背景画像 */
+    background-image: url("../img/hero-image.jpg"); /* 背景画像 */
     background-size: cover; /* 背景画像の大きさ */
     background-position: center; /* 背景画像の表示位置 */
     color: #FAFAFA;
@@ -90,20 +88,11 @@ body{
 }
 
 .contents-item-icon{
-    font-size: 80px;
-    color: #F0AA3C;
+    width: 80px;
 }
 
-.icon-html {
-    color: #F16524;
-}
-
-.icon-css {
-    color: #29A9DF;
-}
-
-.icon-js {
-    color: #F0DB4F;
+.contents-item-title {
+    font-size: 24px;
 }
 
 .contents-item-text{
@@ -153,7 +142,6 @@ body{
     margin-bottom: 20px;
     background-color: #FAFAFA;
     border: solid 2px #FAFAFA;
-    border-radius: 5px;
 }
 
 .contact-form-item--input{
@@ -171,7 +159,6 @@ body{
     margin: 40px auto;
     padding: 10px 40px;
     background: #FAFAFA;
-    border-radius: 5px;
 }
 
 /* お問い合わせフォーム終わり */
