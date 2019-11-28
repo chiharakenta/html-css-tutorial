@@ -74,7 +74,7 @@ body{
 /* コンテンツ */
 .contents{
     text-align: center;
-    padding: 30px 0;
+    padding: 20px 0 100px;
     background-color: #FAFAFA;
 }
 
@@ -84,7 +84,8 @@ body{
 
 .contents-item{
     display: inline-block; /* 横並びにする */
-    margin: 80px 40px 100px; /* 上:80px 左右:40px　下:100px */
+    width: 200px;
+    margin: 60px 16px 0; /* 上:60px 左右:16px　下:0px */
 }
 
 .contents-item-icon{
