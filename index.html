@@ -65,24 +65,30 @@
 
             <!-- 入力フォーム -->
             <form class="contact-form">
+
+                <!-- 名前入力 -->
                 <label class="contact-form-label">お名前</label>
-                <input class="contact-form-item contact-form-item--input" placeholder="必須入力項目です">
-
+                <input class="contact-form-input" placeholder="必須入力項目です">
+                
+                <!-- メールアドレス入力 -->
                 <label class="contact-form-label">メールアドレス</label>
-                <input class="contact-form-item contact-form-item--input" placeholder="必須入力項目です">
-
+                <input class="contact-form-input" placeholder="必須入力項目です">
+                
+                <!-- 言語選択 -->
                 <label class="contact-form-label">興味のある言語</label>
-
-                <select class="contact-form-item">
-                    <option value="">HTML</option>
-                    <option value="">CSS</option>
-                    <option value="">JavaScript</option>
+                <select class="contact-form-select">
+                    <option>HTML</option>
+                    <option>CSS</option>
+                    <option>JavaScript</option>
                 </select>
-
+                
+                <!-- お問い合わせ内容入力 -->
                 <label class="contact-form-label">お問い合わせ内容</label>
-                <textarea class="contact-form-item contact-form-item--textarea" placeholder="必須入力項目です"></textarea>
-
-                <input class="contact-form-item contact-form-item--submit" type="submit" value="送信">
+                <textarea class="contact-form-textarea" placeholder="必須入力項目です"></textarea>
+                
+                <!-- 送信 -->
+                <input class="contact-form-submit" type="submit" value="送信">
+            
             </form>
             <!-- 入力フォーム終わり -->
 

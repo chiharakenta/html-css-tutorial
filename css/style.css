@@ -6,7 +6,7 @@ body{
 
 /* ヘッダー */
 .header{
-    background-color: #323232; /* 背景色 */
+    background-color: #444444; /* 背景色 */
     color: #FAFAFA; /* 文字色 */
     overflow: hidden; /* floatによるレイアウト崩れを防ぐ */
 }
@@ -115,7 +115,7 @@ body{
 
 /* お問い合わせ */
 .contact{
-    background-color: #40474e;
+    background-color: #444444;
     color: #FAFAFA;
     padding: 30px 0;
 }
@@ -126,40 +126,45 @@ body{
 }
 
 /* お問い合わせフォーム */
-.contact-form{
+.contact-form {
     width: 350px;
     margin: 0 auto;
+}
+
+.contact-form-label {
+    display: block;
     font-size: 16px;
 }
 
-.contact-form-label{
-    display: block; /* 縦並びにする */
-    margin-bottom: 6px;
-}
-
-.contact-form-item{
-    display: block; /* 縦並びにする */
+.contact-form-input {
+    display: block;
     font-size: 14px;
     margin-bottom: 20px;
-    background-color: #FAFAFA;
-    border: solid 2px #FAFAFA;
+    padding: 6px;
+    width: 100%;
 }
 
-.contact-form-item--input{
+.contact-form-select {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.contact-form-textarea {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 20px;
     width: 100%;
     padding: 6px;
-}
-
-.contact-form-item--textarea{
-    width: 100%;
     height: 80px;
-    padding: 6px;
 }
 
-.contact-form-item--submit{
+.contact-form-submit {
+    display: block;
+    font-size: 14px;
+    border: none;
+    padding: 8px 32px;
     margin: 40px auto;
-    padding: 10px 40px;
-    background: #FAFAFA;
 }
 
 /* お問い合わせフォーム終わり */
