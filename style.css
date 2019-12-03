@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+}
+
+/* ヘッダー */
+.header {
+    background-color: #444444;
+    color: #FAFAFA;
+    overflow: hidden;
+}
+
+.header-title {
+    font-size: 32px;
+    float: left;
+    margin: 18px 0 18px 10px;
+}
+
+.header-nav {
+    list-style: none;
+    float: right;
+}
+
+.header-nav-item {
+    display: inline-block;
+    margin: 10px 20px 0 0;
+}
+
+/* トップ */
+.top {
+    text-align: center;
+    color: #FAFAFA;
+    background-image: url(img/hero-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.top-title {
+    font-size: 60px;
+}
+
+.top-text {
+    font-size: 40px;
+}
+
+/* コンテンツ */
+.contents {
+    text-align: center;
+    padding: 20px 0 100px;
+}
+
+.contents-title {
+    font-size: 40px;
+    text-align: center;
+}
+
+.contents-item {
+    display: inline-block;
+    width: 200px;
+    margin: 40px 16px 0;
+}
+
+.contents-item-icon {
+    width: 80px;
+}
+
+.contents-item-title {
+    font-size: 24px;
+}
+
+.contents-item-text {
+    font-size: 20px;
+}
+
+/* お問い合わせ */
+.contact {
+    background-color: #444444;
+    color: #FAFAFA;
+    padding: 20px 0 100px;
+}
+
+.contact-form {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-title {
+    font-size: 40px;
+    text-align: center;
+}
+
+.contact-form-input, .contact-form-textarea, .contact-form-select, .contact-form-submit {
+    display: block;
+}
+
+.contact-form-input, .contact-form-textarea {
+    width: 100%;
+    padding: 6px;
+    font-size: 14px;
+}
+
+.contact-form-title {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.contact-form-select {
+    font-size: 14px;
+}
+
+.contact-form-textarea {
+    height: 80px;
+}
+
+.contact-form-submit {
+    border: none;
+    padding: 6px 20px;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 28px;
+}

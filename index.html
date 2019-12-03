@@ -1,97 +1,74 @@
 <!DOCTYPE html>
-<html lang="ja">
-
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/style.css">
-    <title>CREATE</title>
-</head>
-
-<body>
-    <!-- ヘッダー -->
-    <header class="header">
-        <div class="header-title">CREATE</div>
-        <ul class="header-nav">
-            <li class="header-nav-item">特徴</li>
-            <li class="header-nav-item">学習ルート</li>
-            <li class="header-nav-item">応募ページ</li>
-        </ul>
-    </header>
-    <!-- ヘッダー終わり -->
-
-    <!-- トップ -->
-    <div class="top">
-        <h1 class="top-title">CREATE</h1>
-        <p class="top-text">根本的なプログラミング力を鍛える</p>
-    </div>
-    <!-- トップ終わり -->
-
-    <!-- コンテンツ全体 -->
-    <div class="contents">
-
-        <h2 class="contents-title">学べるコンテンツ</h2>
-
-        <!-- 個別コンテンツ -->
-        <div class="contents-item">
-            <img src="img/html5.svg" class="contents-item-icon">
-            <h3 class="contents-item-title">HTML</h3>
-            <p class="contents-item-text"><a href="https://developer.mozilla.org/ja/docs/Web/HTML">HTML</a>が学べます</p>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CREATE</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- ヘッダー -->
+        <div class="header">
+            <div class="header-title">CREATE</div>
+            <ul class="header-nav">
+                <li class="header-nav-item">特徴</li>
+                <li class="header-nav-item">学習ルート</li>
+                <li class="header-nav-item">応募ページ</li>
+            </ul>
         </div>
-        <!-- 個別コンテンツ終わり -->
+        <!-- ヘッダー終わり -->
 
-        <!-- 個別コンテンツ -->
-        <div class="contents-item">
-            <img src="img/css-5.svg" class="contents-item-icon">
-            <h3 class="contents-item-title">CSS</h3>
-            <p class="contents-item-text"><a href="https://developer.mozilla.org/ja/docs/Web/CSS">CSS</a>が学べます</p>
+        <!-- トップ -->
+        <div class="top">
+            <h1 class="top-title">CREATE</h1>
+            <p class="top-text">根本的なプログラミング力を鍛える</p>
         </div>
-        <!-- 個別コンテンツ終わり -->
+        <!-- トップ終わり -->
 
-        <!-- 個別コンテンツ -->
-        <div class="contents-item">
-            <img src="img/javascript-4.svg" class="contents-item-icon">
-            <h3 class="contents-item-title">JavaScript</h3>
-            <p class="contents-item-text"><a href="https://developer.mozilla.org/ja/docs/Web/JavaScript">JavaScript</a>が学べます</p>
+        <!-- コンテンツ -->
+        <div class="contents">
+            <h2 class="contents-title">学べるコンテンツ</h2>
+            <div class="contents-item">
+                <img class="contents-item-icon" src="img/html5.svg">
+                <h3 class="contents-item-title">HTML</h3>
+                <p class="contents-item-text"><a href="https://developer.mozilla.org/ja/docs/Web/HTML">HTML</a>を学べます</p>
+            </div>
+            <div class="contents-item">
+                <img class="contents-item-icon" src="img/css-5.svg">
+                <h3 class="contents-item-title">CSS</h3>
+                <p class="contents-item-text"><a href="https://developer.mozilla.org/ja/docs/Web/CSS">CSS</a>を学べます</p>
+            </div>
+            <div class="contents-item">
+                <img class="contents-item-icon" src="img/javascript-4.svg">
+                <h3 class="contents-item-title">JavaScript</h3>
+                <p class="contents-item-text"><a href="https://developer.mozilla.org/ja/docs/Web/JavaScript">JavaScript</a>を学べます</p>
+            </div>
         </div>
-        <!-- 個別コンテンツ終わり -->
-    </div>
-    <!-- コンテンツ全体終わり -->
+        <!-- コンテンツ終わり -->
 
-    <!-- お問い合わせ -->
-    <div class="contact">
-        <h2 class="contact-title">お問い合わせ</h2>
+        <!-- お問い合わせ -->
+        <div class="contact">
+            <h2 class="contact-title">お問い合わせ</h2>
+            <form class="contact-form">
 
-        <!-- 入力フォーム -->
-        <form class="contact-form">
+                <p class="contact-form-title">お名前</p>
+                <input class="contact-form-input" placeholder="必須入力項目です">
 
-            <!-- 名前入力 -->
-            <label class="contact-form-label">お名前</label>
-            <input class="contact-form-input" placeholder="必須入力項目です">
-            
-            <!-- メールアドレス入力 -->
-            <label class="contact-form-label">メールアドレス</label>
-            <input class="contact-form-input" placeholder="必須入力項目です">
-            
-            <!-- 言語選択 -->
-            <label class="contact-form-label">興味のある言語</label>
-            <select class="contact-form-select">
-                <option>HTML</option>
-                <option>CSS</option>
-                <option>JavaScript</option>
-            </select>
-            
-            <!-- お問い合わせ内容入力 -->
-            <label class="contact-form-label">お問い合わせ内容</label>
-            <textarea class="contact-form-textarea" placeholder="必須入力項目です"></textarea>
-            
-            <!-- 送信 -->
-            <input class="contact-form-submit" type="submit" value="送信">
-        
-        </form>
-        <!-- 入力フォーム終わり -->
+                <p class="contact-form-title">メールアドレス</p>
+                <input class="contact-form-input" placeholder="必須入力項目です">
 
-    </div>
-    <!-- お問い合わせ終わり -->
-</body>
+                <p class="contact-form-title">興味のある言語</p>
+                <select class="contact-form-select">
+                    <option>HTML</option>
+                    <option>CSS</option>
+                    <option>JavaScript</option>
+                </select>
 
+                <p class="contact-form-title">お問い合わせ内容</p>
+                <textarea class="contact-form-textarea" placeholder="必須入力項目です"></textarea>
+
+                <input type="submit" value="送信" class="contact-form-submit">
+            </form>
+        </div>
+        <!-- お問い合わせ終わり -->
+    </body>
 </html>
