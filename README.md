@@ -1,5 +1,5 @@
 # サイトを見る
-https://dotval.github.io/html-css-tutorial/
+https://chiharakenta.github.io/html-css-tutorial/
 
 # 参考サイト集
 
